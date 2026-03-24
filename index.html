@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDP ShopZone - Boutique E-commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <header>
+    <h1>CDP ShopZone</h1>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">Boutique</a>
+      <a href="#">Produits</a>
+      <a href="#">Panier</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenue sur CDP ShopZone</h2>
+    <p>Une boutique e-commerce moderne conçue pour une expérience utilisateur simple et rapide.</p>
+    <button>Découvrir la boutique</button>
+  </section>
+
+  <section class="section">
+    <h3>Produits populaires</h3>
+    <div class="products">
+      <div class="card">
+        <div class="product-img">
+        <img src="images/sneakers.jpg" alt="Sneakers Premium" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="card-content">
+          <h4>Sneakers Premium</h4>
+          <div class="price">25 000 FCFA</div>
+          <button class="add-to-cart" data-name="Sneakers Premium" data-price="25000">Ajouter au panier</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="product-img"><img src="images/montre.jpg" alt="Sneakers Premium" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="card-content">
+          <h4>Montre Élégante</h4>
+          <div class="price">18 000 FCFA</div>
+         <button class="add-to-cart" data-name="Montre Élégante" data-price="18000">Ajouter au panier</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="product-img"><img src="images/sac.jpg" alt="Sneakers Premium" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="card-content">
+          <h4>Sac Urbain</h4>
+          <div class="price">15 000 FCFA</div>
+          <button class="add-to-cart" data-name="Sac Urbain" data-price="15000">Ajouter au panier</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="product-img"><img src="images/casque.jpg" alt="Sneakers Premium" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="card-content">
+          <h4>Casque Audio</h4>
+          <div class="price">30 000 FCFA</div>
+          <button class="add-to-cart" data-name="Casque Audio" data-price="30000">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>Panier (démo)</h3>
+   <div class="cart-box">
+  <div id="cart-items"></div>
+
+  <div class="total" id="cart-total">
+    Total : 0 FCFA
+  </div>
+
+  <button class="checkout-btn">
+    Passer la commande
+  </button>
+</div>
+  </section>
+
+  <footer>
+    <p>© 2026 CDP ShopZone - Projet e-commerce vitrine pour portfolio - By Marcellin</p>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
